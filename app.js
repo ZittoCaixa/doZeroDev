@@ -1,5 +1,9 @@
 let listaDeNumerosSorteados = [];
+<<<<<<< HEAD
 let numeroLimite = 69;
+=======
+let numeroLimite = 10;
+>>>>>>> parent of a320220 (Mais uma de novo)
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -11,7 +15,11 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
   exibirTextoNaTela("h1", "Jogo de Advinhações");
+<<<<<<< HEAD
   exibirTextoNaTela("p", "Escolha um número entre 1 e 69");
+=======
+  exibirTextoNaTela("p", "Escolha um número entre 1 e 10");
+>>>>>>> parent of a320220 (Mais uma de novo)
 }
 exibirMensagemInicial();
 
